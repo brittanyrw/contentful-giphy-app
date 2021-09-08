@@ -8,3 +8,79 @@ div {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* CONFIG SCREEN */
+
+.giphyConfig {
+  background-color: #121212;
+}
+
+.giphyForm {
+  flex-direction: column;
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  padding: 50px 50px 20px 50px;
+  box-shadow: 10px 7px 31px -4px rgba(0,0,0,0.36);
+  position: relative;
+}
+
+.giphyForm::after {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 100%;
+  /* background: red; */
+  top: 0;
+  left: 0;
+  background: linear-gradient( 
+90deg
+, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 100%);
+}
+
+.configGif {
+  display: block;
+  margin: auto;
+}
+
+.giphyCredit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.giphyAttribution {
+  margin-right: 10px;
+}
+
+.giphyLogo {
+  height: 30px;
+}
+
+/* EDITOR FIELD */
+
+.gifSearchInput {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.gifSearchBox {
+  margin-right: 15px;
+}
+
+.gifResult {
+  margin-top: 20px;
+}
+
+.gifImage {
+  position: relative;
+}
+
+.gifDeleteButton {
+  position: absolute;
+  top: -5px;
+}
+
+.gifDeleteButton svg {
+  height: 25px;
+}
