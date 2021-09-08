@@ -82,7 +82,7 @@ const Config = ({ sdk }: ConfigProps) => {
             id="apiKey"
             name="apiKey"
             labelText="GIPHY API Key:"
-            textInputProps={{ width: 'large' }}
+            textInputProps={{ width: 'full' }}
             value={parameters.apiKey}
             onChange={updateApiKey}
           />
