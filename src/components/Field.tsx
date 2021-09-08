@@ -10,7 +10,7 @@ const Field = (props: FieldProps) => {
 
   const params = props.sdk.parameters.installation as AppInstallationParameters
   const [searchTerm, setSearchTerm] = useState("");
-  const [gif, setGif] = useState("");
+  const [gif, setGif] = useState(" ");
 
   const searchGif = () => {
     if (searchTerm.length > 0) {
