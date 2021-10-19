@@ -14,3 +14,6 @@ Open your app to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
+## Install in your Contentful Space
+[![Install to Contentful](https://www.ctfstatic.com/button/install-small.svg)](https://app.contentful.com/deeplink?link=apps&id=ViQc3XjCMoUIpu8hA3Bwf)
